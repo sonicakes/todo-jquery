@@ -1,5 +1,7 @@
 # Frontend Mentor - Todo app
 
+## NOTE: All the credit for confetti animation goes to user on Codepen: simlind, here is the link to their code on Codepen: https://codepen.io/simlind/pen/BZwjbv (I'm calling the confetti throwing function if the user ticks off all the items from their list. Aaand there's a surprise at the end too! Hint: a character from all times favourite children' show :P)
+
 ![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
