@@ -125,7 +125,13 @@ function doStuff() {
 
 
 
+    $(".show-completed").on( "click", function() {
+        $("label:not(.complete)").remove();
+     });
 
+     $(".show-active").on( "click", function() {
+        $("label.complete").remove();
+     });
        
 
      $(".clear-completed").on( "click", function() {
@@ -135,8 +141,6 @@ function doStuff() {
         $('#itemsLeft').text('Add some more');
         todosArray.splice(todosArray.indexOf(idMarked), 1)
         console.log(todosArray);
-    
-
      });
 
 
